@@ -258,15 +258,16 @@ sleep 6.0
 banner
 menu
 }
+
 upd(){
-if [ -d "$HOME/HXP-Ducky" ];
+if [ -d "$HOME/R-Virus" ];
 then
 cd $HOME
-rm -rf HXP-Ducky
-elif [ -d "$HOME/HXP-Ducky" ];
+rm -rf R-Virus
+elif [ -d "$HOME/R-Virus" ];
 then
 cd $HOME
-rm -rf HXP-Ducky
+rm -rf R-Virus
 else
 echo
 exit 1
@@ -288,8 +289,8 @@ echo
 printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
 sleep 2.0
 cd $HOME
-cd HXP-Duck
-bash hxp_ducky.sh
+cd R-Virus
+bash R_Virus.sh
 }
 banner
 menu
